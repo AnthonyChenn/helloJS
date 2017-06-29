@@ -2,7 +2,7 @@ function main(params) {
 
   var commits = param.commits;
   var parameters = {
-    text : "The file '" + commits[0].modified + "' modified by '" + commits[0].author.name + "'."
+    text : "The file '" + commits[4].modified + "' modified by '" + commits[0].author.name + "'."
   };
 
   whisk.invoke({
